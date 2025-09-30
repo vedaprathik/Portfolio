@@ -16,7 +16,6 @@ const useScrollReveal = ()=> {
             }
     });
     };
-
     const observer=new IntersectionObserver(handleIntersection,observerOptions);
     sections.forEach(section=>{
         observer.observe(section);
