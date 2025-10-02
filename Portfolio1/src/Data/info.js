@@ -1,6 +1,7 @@
 import cmr from './cmr.jpg';
 import PASS from './PASS.jpg';
 import alp from './alp.jpeg';
+import Sch from './Sch.jpg';
 
 const info={
     main: {
@@ -71,6 +72,7 @@ const info={
             school: "Vishwashanthi Hgh School",
             degree: "Secondary Education - 9.0 CGPA",
             duration: "2018 - 2019",
+            image: Sch,
         },
     ],
     
