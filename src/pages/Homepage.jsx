@@ -1,5 +1,5 @@
 
-import Profile from "../Components/sections/profile";
+import Profile from "../Components/sections/Profile.jsx";
 import Projects from "../components/sections/Projects.jsx";
 import Education from "../Components/sections/Education.jsx";
 import Skills from "../Components/sections/Skils.jsx";

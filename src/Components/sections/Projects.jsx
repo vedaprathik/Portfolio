@@ -1,8 +1,8 @@
 import info from "../../Data/info";
 import { FaFileCode } from "react-icons/fa";
-import Project from "../Project";   
+import Project from "../Project";
 import '../styles/projects.css'
-import useScrollReveal from "./useScrolReveal";
+import useScrollReveal from "./useScrollReveal";
 
 function Projects(){
     useScrollReveal();
