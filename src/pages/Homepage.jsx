@@ -5,9 +5,11 @@ import Education from "../Components/sections/Education.jsx";
 import Skills from "../Components/sections/Skils.jsx";
 import CodingProfiles from "../Components/sections/CodingProfiles.jsx";
 
+
 import { useContext } from "react";
 import {AppContext} from "../App.jsx";
 function Homepage(){
+    const { theme, switchTheme } = useContext(AppContext);
     return(
         <>
         <Particles/>
