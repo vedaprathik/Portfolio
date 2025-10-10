@@ -1,5 +1,5 @@
 import info from "../../Data/info";
-import useScrollReveal from "./useScrolReveal";
+import useScrollReveal from "./useScrollReveal";
 import {FaHackerrank } from "react-icons/fa";
 import { SiLeetcode, SiCodechef, SiGeeksforgeeks } from "react-icons/si";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
