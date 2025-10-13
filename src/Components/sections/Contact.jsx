@@ -4,7 +4,6 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 import {MdEmail} from "react-icons/md";
 import { FaGithub } from "react-icons/fa";
 import '../styles/contact.css'
-
 import useScrollReveal from "./useScrollReveal.js";
 function Contact(){
     useScrollReveal();

@@ -2,11 +2,11 @@ import { DiGithubAlt } from "react-icons/di";
 import { FaGitAlt,FaCss3Alt, FaHtml5, FaNodeJs, FaPython, FaReact} from "react-icons/fa6";
 import { IoLogoJavascript } from "react-icons/io";
 import {SiExpress} from "react-icons/si"
+import useScrollReveal from "./useScrollReveal";
 import { IoCodeSlash } from "react-icons/io5";
 import { GrMysql } from "react-icons/gr";
 import { FaC } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
-import useScrollReveal from "./useScrollReveal";
 import { FaBootstrap } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
 

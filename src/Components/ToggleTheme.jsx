@@ -1,5 +1,5 @@
 import { CgDarkMode } from "react-icons/cg";
-
+import './styles/toggletheme.css'
 function ToogleTheme({switchTheme}){
     return(
         <div className="theme-toggle-wrapper">

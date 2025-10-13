@@ -3,7 +3,7 @@ import {useNavigate} from "react-router-dom";
 import '../Components/styles/404.css';
 
 function NotFound(){
-    const navigate=useNavigate()
+    const navigate=useNavigate();
     return(
         <div className="notfound-wrapper">
             <div className="notfound-container">

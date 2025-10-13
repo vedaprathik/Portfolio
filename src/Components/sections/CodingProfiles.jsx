@@ -1,8 +1,9 @@
 import info from "../../Data/info";
-import useScrollReveal from "./useScrollReveal";
+import '../styles/CodingProfiles.css'
 import {FaHackerrank } from "react-icons/fa";
 import { SiLeetcode, SiCodechef, SiGeeksforgeeks } from "react-icons/si";
 import { LiaLaptopCodeSolid } from "react-icons/lia";
+import useScrollReveal from "./useScrollReveal";
 const CodingProfiles= () =>{
     useScrollReveal();
 

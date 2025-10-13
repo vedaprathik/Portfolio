@@ -5,11 +5,11 @@ import { SiInfosys } from "react-icons/si";
 import { FaLandmark } from "react-icons/fa";
 import { FaBuildingUser } from "react-icons/fa6";
 import { FcGoogle } from "react-icons/fc";
+import useScrollReveal from "./useScrollReveal";
 import { SiUdemy } from "react-icons/si";
 import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank } from "react-icons/si";
 import Slider from "react-slick";
-import useScrollReveal from "./useScrolReveal";
 
 export default function Education(){
     useScrollReveal();

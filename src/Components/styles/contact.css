@@ -15,7 +15,7 @@
 .heading {
   font-size: 3rem;
   font-weight: bold;
-  color: #18181b; 
+  color: #18181b;
 }
 
 .dark .heading {
@@ -23,24 +23,24 @@
 }
 
 .highlight {
-  color: #991b1b; 
+  color: #991b1b;
 }
 
 .dark .highlight {
-  color: #f87171; 
+  color: #f87171;
 }
 
 .description {
   margin-top: 2rem;
   font-size: 1rem;
   line-height: 1.75rem;
-  color: #52525b; 
+  color: #52525b;
   font-weight: 300;
   margin: 2rem;
 }
 
 .dark .description {
-  color: #d4d4d8; 
+  color: #d4d4d8;
 }
 
 .links {
@@ -86,7 +86,7 @@
 }
 
 .dark .divider {
-  border-color: #27272a; 
+  border-color: #27272a;
 }
 
 .email-link {
@@ -94,7 +94,7 @@
   margin-top: 1.5rem;
   gap: 1rem;
   text-decoration: none;
-  color: #52525b; 
+  color: #52525b;
   transition: all 0.3s ease;
 }
 
