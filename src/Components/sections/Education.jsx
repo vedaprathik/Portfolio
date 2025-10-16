@@ -11,6 +11,7 @@ import { PiCertificateFill } from "react-icons/pi";
 import { SiHackerrank } from "react-icons/si";
 import Slider from "react-slick";
 
+
 export default function Education(){
     useScrollReveal();
 
@@ -37,7 +38,7 @@ export default function Education(){
                         <div className="ee-dot"/>
                         <div className="ee-content">
                             <h3 className="e-entry-header">
-                                <img className="ee-logo" src={encodeURI.image} alt={`${edu.school} logo`} />
+                                <img className="ee-logo" src={edu.image} alt={`${edu.school} logo`} />
                                 <div>{edu.school}<p className="ee-subtext">{edu.degree}</p></div>
                             </h3>
                         </div>
@@ -50,14 +51,14 @@ export default function Education(){
                     <Slider {...certSettings}>
                         {info.certificates.map((cert, i) => (
                             <div className="ee-slide" key={i}>
-                                {cert.icon==="simplilearn" ?(
-                                    <img src={info.simpli} alt="" className="ee-cert-icon simplilearn" />
+                                {cert.icon==="Simplilearn" ?(
+                                    <img src={info.simpli} alt="" className="ee-cert-icon Simplilearn" />
                                 ):
                                 cert.icon === "infosys" ? (
                                 <SiInfosys className="ee-cert-icon infosys" />
                                 ):
                                 cert.icon === "smartinterviews" ? (
-                                <img src={info.smart} alt="" className="ee-cert-icon smartinterviews" />
+                                <img src={info.smart} alt="Smartinterviews" className="ee-cert-icon smartinterviews" />
                                 ):
                                 cert.icon === "udemy" ? (
                                 <SiUdemy className="ee-cert-icon udemy" />

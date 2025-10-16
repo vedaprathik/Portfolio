@@ -1,14 +1,16 @@
 import cmr from './cmr.jpg';
-import PASS from './PASS.jpg';
+import icon1 from './icon1.jpg';
 import alp from './alp.jpeg';
 import Sch from './Sch.jpg';
+import Simplilearn from './Simplilearn.jpg';
+import Smartinterviews from './Smartinterviews.jpg';
 
 const info={
     main: {
         name: "VedaPrathik Gattu",
         description: "Motivated Computer Science Engineering student with hands-on experience in innovative projects by applying my expertise in backend development with Spring Boot, frontend technologies like React and Bootstrap, and database management with MySQL. Seeking a Software Engineer role to contribute to innovative projects by leveraging skills in Java, Python, React, Spring Boot, Bootstrap, and MySQL to build scalable and efficient software solutions.",
         role: "Software Engineer",
-        image: PASS,
+        photo: icon1,
         email: "gattuvedaprathikgoud@gmail.com",
     },
 
@@ -46,12 +48,6 @@ const info={
             technologies: "Html, Css, JavaScript",
             github: "https://vedaprathikgattu.github.io/DiceGames/",
         },
-        {
-            title: "Nteflix-Home",
-			description: "A Netflix Home Page clone created with HTML and CSS is a front-end web project that replicates the look and feel of Netflix’s landing page.HTML provides the structure, including the navigation bar, banner section, movie thumbnails, and footer.CSS styles these elements with layouts, background images, hover effects, and responsive design, making it visually appealing and similar to the original Netflix interface.",
-            technologies: "Html, Css",
-            github: "https://vedaprathikgattu.github.io/Netflix-Home/",
-        },
     ],
 
     education:[
@@ -59,21 +55,21 @@ const info={
             school: "CMR Institute of Technology, Hyderabad",
             degree: "Bachelor of Science in Computer Science - 7.35 CGPA",
             duration: "2021 - 2025",
-            image: cmr,
+            image: cmr
         },
 
         {
             school: "Alphores Junior College",
             degree: "Intermediate - Mathematics Physics Chemistry (MPC) - 74%",
             duration: "2019 - 2021",
-            image: alp,
+            image: alp
         },
 
         {
             school: "Vishwashanthi Hgh School",
             degree: "Secondary Education - 9.0 CGPA",
             duration: "2018 - 2019",
-            image: Sch,
+            image: Sch
         },
     ],
     
@@ -95,14 +91,14 @@ const info={
         {
             title:"Full Stack Java Development",
             description: "Provided by SimpliLearn",
-            icon: "simpli",
+            simpli: "Simplilearn",
             link: "https://drive.google.com/file/d/1VJGCVHzLEAOYZE947CkwrYTKCWJDEuKz/view",
         },
 
         {
             title: "Smart Coder (DSA)",
             description: "Provided by Smart Interviews",
-            icon: "smart",
+            icon: "Smartinterviews",
             link: "https://drive.google.com/file/d/1ldkY35g-Hq6xPNLcTYnuV27DTWIc8Ty8/view",
         },
 
@@ -129,11 +125,18 @@ const info={
 
     ],
 
+    coding:{
+        leetcode: "https://leetcode.com/u/vedaprathik23/",
+        gfg:"https://www.geeksforgeeks.org/user/21r01a0523/",
+        codechef: "https://www.codechef.com/users/vedaprathik23",
+        hackerrank:"https://www.hackerrank.com/profile/21r01a0523"
+    },
+
     contact: {
         title: "Let's Get in Touch: Ways to Connect with Me",
         description: "Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at vittu3003@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.",
     },
 
-    footer: "© 2025 Pavan Vasam. All Rights Reserved"
+    footer: "© 2025 VedaPrathik Gattu. All Rights Reserved"
 }
 export default info;

@@ -18,7 +18,7 @@ function NotFound(){
                             The requested URL &quot;{window.location.href}&quot; was not found on this server.
                         </div>
                         <div className='notfound-button-wrapper'>
-                            <button onClick={() => navigate("/")} className='notfound-button'>
+                            <button onClick={() => navigate("/portfolio")} className='notfound-button'>
                                 Go back to homepage
                             </button>
                         </div>

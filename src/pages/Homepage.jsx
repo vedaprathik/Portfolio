@@ -1,6 +1,5 @@
-
-import Profile from "../Components/sections/profile.jsx";
-import Projects from "../components/sections/Projects.jsx";
+import Profile from "../Components/sections/Profile.jsx";
+import Projects from "../Components/sections/Projects.jsx";
 import Contact from "../Components/sections/Contact.jsx";
 import Education from "../Components/sections/Education.jsx";
 import Skills from "../Components/sections/Skils.jsx";
@@ -10,6 +9,7 @@ import CodingProfiles from "../Components/sections/CodingProfiles.jsx";
 import Particles from "../Components/Particles.jsx";
 import { useContext } from "react";
 import {AppContext} from "../App.jsx";
+import Footer from "../Components/sections/Footer.jsx";
 function Homepage(){
     const { theme, switchTheme } = useContext(AppContext);
     return(
@@ -24,6 +24,7 @@ function Homepage(){
                 <Skills/>
                 <CodingProfiles/>
                 <Contact/>
+                <Footer theme={theme}/>
             </div>
         </div>
         </>

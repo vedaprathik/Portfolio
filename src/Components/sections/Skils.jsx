@@ -9,6 +9,7 @@ import { FaC } from "react-icons/fa6";
 import { FaJava } from "react-icons/fa";
 import { FaBootstrap } from "react-icons/fa";
 import { SiSpringboot } from "react-icons/si";
+import '../styles/skills.css'
 
 function Skills(){
     useScrollReveal();

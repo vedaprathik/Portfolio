@@ -16,7 +16,7 @@ function Profile(){
                         <div className="buttons">
                             <a className="projectandgithub" href="#projects">Projects</a>
                             <a className="projectandgithub" href={info.socials.github}>Github</a>
-                            <a href="#contact"> <span>Contact</span> <IosIosArrowForrward/> </a>
+                            <a href="#contact"> <span>Contact</span> <IoIosArrowForward/> </a>
                         </div>
                     </div>
                     <div className="image-block">

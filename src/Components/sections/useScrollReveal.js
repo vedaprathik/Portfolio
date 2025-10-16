@@ -1,8 +1,8 @@
 import { useEffect } from "react";
 const useScrollReveal = ()=> {
     useEffect(()=>{
-    const sections =document.querrySelectorAll(".section-animate");
-    const observeOptions={
+    const sections =document.querySelectorAll(".section-animate");
+    const observerOptions={
         threshold:0.1,
     };
     const handleIntersection=(entries)=>{

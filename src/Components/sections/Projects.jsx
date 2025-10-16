@@ -1,8 +1,9 @@
 import info from "../../Data/info";
 import { FaFileCode } from "react-icons/fa";
 import Project from "../Project";
-import '../styles/projects.css'
 import useScrollReveal from "./useScrollReveal";
+import '../styles/projects.css'
+
 
 function Projects(){
     useScrollReveal();
@@ -13,7 +14,7 @@ function Projects(){
         <section id="projects" className="projects-grid section-animate">
             {info.projects.map((project,index)=>{
                 return(
-                    <project
+                    <Project
                     key={index}
                     title={project.title}
                     description={project.description}
