@@ -2,10 +2,13 @@ import cmr from './cmr.jpg';
 import icon1 from './icon1.jpg';
 import alp from './alp.jpeg';
 import Sch from './Sch.jpg';
+import smartinterviews from './smartinterviews.webp';
 import Simplilearn from './Simplilearn.jpg';
-import Smartinterviews from './Smartinterviews.jpg';
+
 
 const info={
+    smart:smartinterviews,
+    simpli:Simplilearn,
     main: {
         name: "VedaPrathik Gattu",
         description: "Motivated Computer Science Engineering student with hands-on experience in innovative projects by applying my expertise in backend development with Spring Boot, frontend technologies like React and Bootstrap, and database management with MySQL. Seeking a Software Engineer role to contribute to innovative projects by leveraging skills in Java, Python, React, Spring Boot, Bootstrap, and MySQL to build scalable and efficient software solutions.",
@@ -26,27 +29,45 @@ const info={
             title: "Employee Management System",
 			description: "A full-stack web application built to implement complete CRUD operations for managing employee records, featuring a responsive UI and seamless integration between frontend and backend.",
             technologies: "React, Bootsrap, Springboot, MySQL,REST APIs",
-            github: "https://vedaprathikgattu.github.io/employee/",
+            github: "https://github.com/vedaprathik/Employee-Management-System",
+        },
+
+        {
+            title: "E - Commerce Websitee",
+			description: "A full-stack web application built to implement complete CRUD operations for managing employee records, featuring a responsive UI and seamless integration between frontend and backend.",
+            technologies: "React, Tailwind CSS, Node.js, Express.js, MySQL, REST APIs",
+            github: "https://github.com/vedaprathik/E-commerce",
         },
 
         {
             title: "Grocery Store System",
 			description: "This Grocery Store project is a responsive e-commerce website built using HTML,CSS, JavaScript, and Bootstrap, featuring product categories, customer reviews, and blogs. It includes interactivefunctions like add-to-cart, product search, dynamic cart updates, and login form toggles for a complete shoppingexperience.",
             technologies: "Html, Css, JavaScript, Bootstrap",
-            github: "https://vedaprathikgattu.github.io/gsp/",
+            github: "https://github.com/vedaprathik/Grocerry-Store",
+            link: "https://vedaprathik.github.io/Grocerry-Store/",
         },
         {
             title: "Simple Calculator",
 			description: "A calculator program using HTML, CSS, and JavaScript performs basic arithmetic operations interactively.HTML builds the structure, CSS styles the interface, and JavaScript handles the logic and calculations.It is a simple yet effective project to understand the fundamentals of web development.",
             technologies: "Html, Css, JavaScript",
-            github: "https://vedaprathikgattu.github.io/calculator/",
+            github: "https://github.com/vedaprathik/Caluclator",
+            link: "https://vedaprathik.github.io/Caluclator/",
         },
 
         {
             title: "Dice Game",
-			description: "A Dice Game built with HTML, CSS, and JavaScript is a fun web project where two players roll dice and the program decides the winner.HTML creates the structure with dice images and buttons, CSS styles the layout for an engaging look, and JavaScript generates random dice values, updates the dice faces, and displays the winner.This project demonstrates event handling, randomness, and DOM manipulation in web development.",
+			description: "A Dice Game built with HTML, CSS, and JavaScript. HTML creates the structure with dice images and buttons, CSS styles the layout for an engaging look, and JavaScript generates random dice values, updates the dice faces, and displays the winner.This project demonstrates event handling, randomness, and DOM manipulation in web development.",
             technologies: "Html, Css, JavaScript",
-            github: "https://vedaprathikgattu.github.io/DiceGames/",
+            link: "https://vedaprathik.github.io/Dice-Game/",
+            github: "https://github.com/vedaprathik/Dice-Game",
+        },
+
+        {
+            title: "Simon Game",
+			description: "The **Simon Game** is a memory-based game built using **HTML**, **CSS**, and **JavaScript**. Players must repeat an ever-growing sequence of colors and sounds to advance levels. It features interactive buttons, animations, and sound effects for an engaging experience.",
+            technologies: "Html, Css, JavaScript",
+            link: "https://vedaprathik.github.io/Simon-Game/",
+            github: "https://github.com/vedaprathik/Simon-Game",
         },
     ],
 
@@ -91,14 +112,14 @@ const info={
         {
             title:"Full Stack Java Development",
             description: "Provided by SimpliLearn",
-            simpli: "Simplilearn",
+            icon: "Simplilearn",
             link: "https://drive.google.com/file/d/1VJGCVHzLEAOYZE947CkwrYTKCWJDEuKz/view",
         },
 
         {
             title: "Smart Coder (DSA)",
             description: "Provided by Smart Interviews",
-            icon: "Smartinterviews",
+            icon: "smartinterviews",
             link: "https://drive.google.com/file/d/1ldkY35g-Hq6xPNLcTYnuV27DTWIc8Ty8/view",
         },
 

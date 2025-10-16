@@ -305,6 +305,10 @@
 .smartinterviews {
     height:3rem;
 }
+
+.Simplilearn {
+    height:3rem;
+}
 .ee-slide:hover .ee-tooltip { opacity: 1; }
 .dark .ee-tooltip {
     background: #111827;

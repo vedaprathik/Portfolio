@@ -1,5 +1,5 @@
 import info from "../../Data/info.js";
-import '../styles/profile.css';
+import '../styles/profile.css'
 import { IoIosArrowForward} from "react-icons/io"
 import useScrollReveal from "./useScrollReveal.js"
 
