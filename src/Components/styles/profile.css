@@ -56,10 +56,13 @@ section#profile {
 }
 
 .text-block h1 {
+    color: #991b1b;
     font-weight: 900;
     margin-top: 0.75rem;
     font-size: 3rem;
 }
+
+
 
 @media (min-width: 1024px) {
     .text-block h1 {

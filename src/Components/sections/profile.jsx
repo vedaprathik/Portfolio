@@ -11,7 +11,7 @@ function Profile(){
                 <div className="flex-wrap-custom">
                     <div className="text-block">
                         <h2>{info.main.role}</h2>
-                        <h2>{info.main.name}</h2>
+                        <h1>{info.main.name}</h1>
                         <p>{info.main.description}</p>
                         <div className="buttons">
                             <a className="projectandgithub" href="#projects">Projects</a>
