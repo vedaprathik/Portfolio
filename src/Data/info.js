@@ -18,7 +18,7 @@ const info={
     },
 
     socials:{
-        github:" https://github.com/vedaprathikgattu",
+        github:" https://github.com/vedaprathik",
         linkedin: " https://www.linkedin.com/in/gattu-veda-prathik-goud/",
         instagram: "https://www.instagram.com/veda_prathik_/",
         facebook: "https://www.facebook.com/share/1H5vMdUqTb/",

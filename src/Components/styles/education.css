@@ -232,6 +232,16 @@
     color: #1f2937;
 }
 .dark .ee-entry-header { color: #fff; }
+
+.ee-school-name {
+    color: #1f2937;
+}
+
+.dark .ee-school-name {
+    color: #fff;
+}
+
+
 .ee-logo {
     width: 2.25rem;
     height: 2.25rem;

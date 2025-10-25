@@ -39,7 +39,7 @@ export default function Education(){
                         <div className="ee-content">
                             <h3 className="e-entry-header">
                                 <img className="ee-logo" src={edu.image} alt={`${edu.school} logo`} />
-                                <div>{edu.school}<p className="ee-subtext">{edu.degree}</p></div>
+                                <div className="ee-school-name">{edu.school}<p className="ee-subtext">{edu.degree}</p></div>
                             </h3>
                         </div>
                         </div>
