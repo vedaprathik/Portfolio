@@ -19,7 +19,7 @@ useEffect(() => {
     };
   return (
     <AppContext.Provider value={{ theme, switchTheme }}>
-    <BrowserRouter basename="/portfolio/">
+    <BrowserRouter basename="/Portfolio/">
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="*" element={<NotFound />} />
